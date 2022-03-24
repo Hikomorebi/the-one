@@ -12,6 +12,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
+import java.net.NetworkInterface;
 
 import core.Connection;
 import core.DTNHost;
@@ -146,7 +147,6 @@ public class MessageStatsReport extends Report implements MessageListener {
 		FileOutputStream fos = null;
 		OutputStreamWriter osw = null;
 
-
 		try {
 			if (!file.exists()) {
 				boolean hasFile = file.createNewFile();
@@ -182,18 +182,53 @@ public class MessageStatsReport extends Report implements MessageListener {
 					+ "\nhopcount_med: " + getIntMedian(this.hopCounts) + "\nbuffertime_avg: "
 					+ getAverage(this.msgBufferTime) + "\nbuffertime_med: " + getMedian(this.msgBufferTime)
 					+ "\nrtt_avg: " + getAverage(this.rtt) + "\nrtt_med: " + getMedian(this.rtt);
-			String myText="";
-			for(DTNHost host:world.getHosts()) {
-				if(host.getGroupId().equals("bs")) {
-					myText+=(host.getName()+":");
-					for(Connection connection: host.getConnections()) {
-						if(connection.getToNode().getGroupId().equals("user")) {
-							myText+=(connection.getToNode().getName()+"\t");
+			String myText = "";
+			int count = 0, maxcount = -1;
+			HashMap<String, Integer> map = new HashMap<String, Integer>();
+			for (DTNHost host : world.getHosts()) {
+				if (host.getGroupId().equals("core")) {
+					for (Connection connectionBS : host.getConnections()) {
+						count = 0;
+						myText += (connectionBS.getOtherNode(host).getName() + ":");
+						for (Connection connectionUser : connectionBS.getOtherNode(host).getConnections()) {
+							if (connectionUser.getOtherNode(connectionBS.getOtherNode(host)).getGroupId()
+									.equals("user")) {
+								myText += ("\t"+ connectionUser.getOtherNode(connectionBS.getOtherNode(host)).getName());
+								count++;
+							}
 						}
+						map.put(connectionBS.getOtherNode(host).getName(), count);
+						myText += "\n\t该基站连接的user个数为：" + count + "\n\n";
 					}
-					myText+="\n";
 				}
 			}
+			myText += "覆盖user数目最多的基站：";
+			boolean isMax = true;
+			for (String s : map.keySet()) {
+				isMax = true;
+				for (String t : map.keySet()) {
+					if (map.get(s) < map.get(t)) {
+						isMax = false;
+						break;
+					}
+				}
+				if (isMax) {
+					myText += s;
+				}
+			}
+			myText += "\n\n";
+//			for(DTNHost host:world.getHosts()) {
+//				if(host.getGroupId().equals("bs")) {
+//					myText+=(host.getName()+":");
+//					for(Connection connection: host.getConnections()) {
+//						if(connection.getToNode().getGroupId().equals("user")) {
+//							myText+=(connection.getToNode().getName()+"\t");
+//						}
+//					}
+//					myText+="\n";
+//				}
+//			}
+//			
 
 			osw.write(statsText); // 换行
 			osw.write("\r\n\n");

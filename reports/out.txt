@@ -17,17 +17,39 @@ hopcount_med: 2
 buffertime_avg: NaN
 buffertime_med: NaN
 rtt_avg: NaN
-rtt_med: NaNbs100:user14	user17	user28	user92	
-bs101:user14	user17	user28	user55	
-bs102:user0	user14	user17	user23	user28	user33	user53	user64	user86	user92	
-bs103:user4	user7	user20	user22	user27	user30	user44	user45	user48	user51	user64	user65	user97	user0	user77	
-bs104:user7	user20	user22	user27	user30	user35	user45	user48	user51	user65	user97	user26	
-bs105:user16	
-bs106:user0	user14	user17	user23	user28	user33	user53	user64	user86	user92	
-bs107:user4	user7	user11	user20	user22	user26	user30	user47	user62	user65	user75	user77	user97	user96	user9	user50	
-bs108:user61	user73	user82	
-bs109:user0	user27	user64	
+rtt_med: NaN
 
+bs102:	user85	user56	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user17	user23	user28	user33	user53	user64	user86	user92
+	该基站连接的user个数为：20
+
+bs103:	user40	user66	user67	user15	user98	user32	user2	user87	user31	user4	user7	user20	user22	user27	user30	user44	user45	user48	user51	user64	user65	user97	user0	user77	user26
+	该基站连接的user个数为：25
+
+bs104:	user67	user2	user31	user7	user20	user22	user27	user30	user35	user45	user48	user51	user65	user97	user26
+	该基站连接的user个数为：15
+
+bs106:	user85	user56	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user17	user23	user28	user33	user53	user64	user86	user92
+	该基站连接的user个数为：20
+
+bs107:	user40	user5	user46	user66	user67	user98	user2	user31	user25	user99	user19	user38	user44	user45	user51	user48	user4	user7	user11	user20	user22	user26	user30	user47	user62	user65	user75	user77	user97	user96	user94	user9	user50
+	该基站连接的user个数为：33
+
+bs100:	user29	user91	user52	user12	user42	user71	user1	user6	user54	user14	user17	user28	user92
+	该基站连接的user个数为：13
+
+bs109:	user56	user15	user87	user68	user45	user33	user10	user35	user0	user27	user64
+	该基站连接的user个数为：11
+
+bs108:	user37	user46	user43	user69	user78	user59	user93	user18	user63	user95	user80	user8	user49	user72	user16	user58	user11	user84	user83	user75	user62	user61	user73	user82
+	该基站连接的user个数为：24
+
+bs101:	user29	user91	user52	user12	user42	user57	user76	user71	user1	user39	user23	user6	user54	user70	user13	user14	user17	user28	user55
+	该基站连接的user个数为：19
+
+bs105:	user37	user69	user78	user59	user93	user18	user63	user95	user80	user8	user84	user83	user82	user73	user16
+	该基站连接的user个数为：15
+
+覆盖user数目最多的基站：bs107
 
 Message stats for scenario komorebi
 sim_time: 200.0000
@@ -48,17 +70,39 @@ hopcount_med: 4
 buffertime_avg: NaN
 buffertime_med: NaN
 rtt_avg: NaN
-rtt_med: NaNbs100:user14	user17	user28	user92	
-bs101:user14	user17	user28	
-bs102:user0	user14	user17	user23	user33	user53	user64	user86	user92	
-bs103:user4	user7	user20	user22	user27	user30	user44	user45	user48	user51	user64	user65	user97	user0	user10	user62	user35	
-bs104:user7	user20	user22	user27	user30	user35	user45	user48	user51	user65	user97	user26	
-bs105:user16	
-bs106:user0	user14	user17	user23	user33	user53	user64	user86	user92	user68	
-bs107:user4	user7	user11	user20	user22	user26	user30	user47	user62	user65	user75	user77	user97	user96	user50	
-bs108:user61	user73	user82	user9	
-bs109:user0	user27	user64	
+rtt_med: NaN
 
+bs102:	user85	user56	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user17	user23	user33	user53	user64	user86	user92	user68
+	该基站连接的user个数为：20
+
+bs103:	user40	user67	user15	user98	user32	user2	user87	user31	user4	user7	user20	user22	user27	user30	user44	user45	user48	user51	user64	user65	user97	user0	user26	user10	user62	user35
+	该基站连接的user个数为：26
+
+bs104:	user67	user2	user31	user7	user20	user22	user27	user30	user35	user45	user48	user51	user65	user97	user26
+	该基站连接的user个数为：15
+
+bs106:	user85	user56	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user17	user23	user33	user53	user64	user86	user92	user68
+	该基站连接的user个数为：20
+
+bs107:	user40	user5	user46	user66	user67	user98	user2	user31	user99	user19	user38	user44	user45	user51	user48	user4	user7	user11	user20	user22	user26	user30	user47	user62	user65	user75	user77	user97	user96	user94	user50	user88	user81
+	该基站连接的user个数为：33
+
+bs100:	user29	user91	user52	user12	user42	user71	user1	user6	user54	user14	user17	user28	user92	user39
+	该基站连接的user个数为：14
+
+bs109:	user56	user15	user87	user68	user45	user33	user10	user35	user0	user27	user64
+	该基站连接的user个数为：11
+
+bs108:	user37	user46	user43	user69	user78	user59	user93	user18	user63	user95	user80	user8	user49	user72	user16	user58	user11	user84	user83	user75	user61	user73	user82	user66	user9
+	该基站连接的user个数为：25
+
+bs101:	user29	user91	user52	user12	user42	user57	user76	user71	user1	user39	user6	user54	user70	user13	user14	user17	user28	user36
+	该基站连接的user个数为：18
+
+bs105:	user37	user69	user78	user59	user93	user18	user63	user80	user8	user84	user83	user82	user73	user16
+	该基站连接的user个数为：14
+
+覆盖user数目最多的基站：bs107
 
 Message stats for scenario komorebi
 sim_time: 300.0000
@@ -79,17 +123,39 @@ hopcount_med: 4
 buffertime_avg: 49.6339
 buffertime_med: 6.0000
 rtt_avg: NaN
-rtt_med: NaNbs100:user17	user28	user92	
-bs101:user14	user17	user28	
-bs102:user0	user14	user17	user23	user33	user53	user64	user86	user92	
-bs103:user4	user7	user20	user22	user27	user30	user44	user45	user48	user51	user64	user65	user97	user0	user10	user62	user35	user40	
-bs104:user7	user20	user22	user30	user35	user45	user48	user51	user65	user97	user26	
-bs105:user16	
-bs106:user0	user14	user17	user23	user33	user53	user64	user86	user92	user68	
-bs107:user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user77	user97	user96	user50	
-bs108:user61	user73	user82	user9	user77	
-bs109:user0	user27	user64	
+rtt_med: NaN
 
+bs102:	user85	user56	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user17	user23	user33	user53	user64	user86	user92	user68
+	该基站连接的user个数为：20
+
+bs103:	user67	user15	user98	user32	user2	user87	user31	user4	user7	user20	user22	user27	user30	user44	user45	user48	user51	user64	user65	user97	user0	user26	user10	user62	user35	user40
+	该基站连接的user个数为：26
+
+bs104:	user67	user2	user31	user7	user20	user22	user30	user35	user45	user48	user51	user65	user97	user26
+	该基站连接的user个数为：14
+
+bs106:	user85	user56	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user17	user23	user33	user53	user64	user86	user92	user68
+	该基站连接的user个数为：20
+
+bs107:	user40	user5	user46	user66	user67	user98	user2	user31	user99	user19	user38	user44	user45	user51	user48	user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user77	user97	user96	user94	user50	user88	user81
+	该基站连接的user个数为：32
+
+bs100:	user29	user91	user52	user42	user71	user1	user6	user54	user17	user28	user92	user39
+	该基站连接的user个数为：12
+
+bs109:	user56	user15	user87	user68	user45	user33	user10	user35	user0	user27	user64
+	该基站连接的user个数为：11
+
+bs108:	user37	user46	user43	user69	user78	user59	user93	user18	user63	user95	user80	user8	user49	user72	user16	user58	user11	user84	user83	user75	user61	user73	user82	user66	user9	user77	user99	user89	user19
+	该基站连接的user个数为：29
+
+bs101:	user29	user91	user52	user12	user42	user57	user76	user71	user1	user39	user6	user54	user70	user14	user17	user28	user36
+	该基站连接的user个数为：17
+
+bs105:	user37	user69	user78	user59	user93	user18	user63	user80	user8	user84	user82	user73	user16
+	该基站连接的user个数为：13
+
+覆盖user数目最多的基站：bs107
 
 Message stats for scenario komorebi
 sim_time: 400.0000
@@ -110,17 +176,39 @@ hopcount_med: 4
 buffertime_avg: 56.2605
 buffertime_med: 6.0000
 rtt_avg: NaN
-rtt_med: NaNbs100:user17	user92	
-bs101:user17	user28	
-bs102:user0	user14	user17	user23	user33	user53	user64	user86	user92	
-bs103:user4	user7	user20	user22	user27	user30	user45	user48	user51	user64	user65	user97	user0	user10	user35	user40	user5	user47	user33	
-bs104:user7	user20	user22	user30	user35	user45	user48	user51	user65	user97	user26	user5	
-bs105:user16	
-bs106:user0	user14	user17	user23	user33	user53	user64	user86	user92	user68	
-bs107:user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user97	user96	user50	user49	
-bs108:user61	user73	user82	user9	user77	user44	user25	
-bs109:user0	user27	user64	
+rtt_med: NaN
 
+bs102:	user85	user56	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user17	user23	user33	user53	user64	user86	user92	user68	user39	user52
+	该基站连接的user个数为：22
+
+bs103:	user67	user15	user98	user32	user2	user87	user31	user4	user7	user20	user22	user27	user30	user45	user48	user51	user64	user65	user97	user0	user26	user10	user35	user40	user68	user5	user47	user56	user23	user33
+	该基站连接的user个数为：30
+
+bs104:	user67	user2	user31	user7	user20	user22	user30	user35	user45	user48	user51	user65	user97	user26	user4	user5	user47
+	该基站连接的user个数为：17
+
+bs106:	user85	user56	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user17	user23	user33	user53	user64	user86	user92	user68	user39	user52
+	该基站连接的user个数为：22
+
+bs107:	user40	user5	user46	user66	user67	user98	user2	user31	user99	user19	user38	user44	user45	user51	user48	user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user97	user96	user94	user50	user88	user81	user49
+	该基站连接的user个数为：32
+
+bs100:	user29	user91	user52	user42	user71	user54	user17	user92	user39
+	该基站连接的user个数为：9
+
+bs109:	user56	user15	user87	user68	user45	user33	user10	user35	user0	user27	user64
+	该基站连接的user个数为：11
+
+bs108:	user37	user46	user43	user69	user78	user59	user93	user18	user63	user95	user80	user8	user49	user72	user16	user58	user11	user84	user83	user75	user61	user73	user82	user66	user9	user77	user99	user89	user19	user34	user96	user44	user25
+	该基站连接的user个数为：33
+
+bs101:	user29	user91	user52	user12	user42	user57	user76	user71	user1	user39	user6	user54	user70	user17	user28	user36
+	该基站连接的user个数为：16
+
+bs105:	user37	user69	user78	user18	user63	user80	user8	user84	user82	user73	user16	user61
+	该基站连接的user个数为：12
+
+覆盖user数目最多的基站：bs108
 
 Message stats for scenario komorebi
 sim_time: 500.0000
@@ -141,17 +229,39 @@ hopcount_med: 3
 buffertime_avg: 60.5880
 buffertime_med: 6.0000
 rtt_avg: NaN
-rtt_med: NaNbs100:user17	user92	
-bs101:user17	user28	
-bs102:user0	user14	user17	user23	user33	user53	user64	user86	user92	user10	user27	
-bs103:user4	user7	user20	user22	user27	user30	user45	user48	user51	user64	user65	user97	user0	user10	user35	user5	user47	user62	
-bs104:user7	user20	user22	user30	user35	user45	user48	user51	user65	user97	user26	user5	
-bs105:user16	
-bs106:user0	user14	user17	user23	user33	user53	user64	user86	user92	user68	
-bs107:user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user97	user96	user50	user49	
-bs108:user61	user73	user82	user9	user77	user44	
-bs109:user0	user27	user64	
+rtt_med: NaN
 
+bs102:	user85	user56	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user17	user23	user33	user53	user64	user86	user92	user68	user39	user52	user10	user27
+	该基站连接的user个数为：24
+
+bs103:	user67	user98	user2	user87	user31	user4	user7	user20	user22	user27	user30	user45	user48	user51	user64	user65	user97	user0	user26	user10	user35	user68	user5	user47	user56	user23	user62
+	该基站连接的user个数为：27
+
+bs104:	user67	user2	user31	user7	user20	user22	user30	user35	user45	user48	user51	user65	user97	user26	user4	user5	user47
+	该基站连接的user个数为：17
+
+bs106:	user85	user56	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user17	user23	user33	user53	user64	user86	user92	user68	user39	user52	user10
+	该基站连接的user个数为：23
+
+bs107:	user5	user46	user66	user67	user98	user2	user31	user99	user19	user38	user44	user45	user51	user48	user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user97	user96	user94	user50	user88	user81	user49
+	该基站连接的user个数为：31
+
+bs100:	user29	user91	user52	user42	user71	user54	user17	user92	user39
+	该基站连接的user个数为：9
+
+bs109:	user56	user15	user87	user68	user45	user33	user10	user35	user0	user27	user64	user14
+	该基站连接的user个数为：12
+
+bs108:	user37	user43	user69	user78	user59	user93	user18	user63	user80	user8	user49	user72	user16	user58	user11	user84	user83	user75	user61	user73	user82	user66	user9	user77	user99	user89	user19	user34	user96	user44
+	该基站连接的user个数为：30
+
+bs101:	user29	user91	user52	user12	user42	user57	user76	user71	user1	user39	user6	user54	user70	user17	user28	user36
+	该基站连接的user个数为：16
+
+bs105:	user37	user69	user78	user18	user63	user80	user8	user84	user73	user16	user61
+	该基站连接的user个数为：11
+
+覆盖user数目最多的基站：bs107
 
 Message stats for scenario komorebi
 sim_time: 600.0000
@@ -172,17 +282,39 @@ hopcount_med: 3
 buffertime_avg: 49.5275
 buffertime_med: 6.0000
 rtt_avg: NaN
-rtt_med: NaNbs100:user17	user92	user36	
-bs101:user17	user53	
-bs102:user0	user14	user33	user53	user64	user86	user92	user10	user27	
-bs103:user4	user7	user20	user22	user27	user30	user45	user48	user51	user97	user0	user10	user35	user5	user47	user62	user24	user14	user50	user33	
-bs104:user7	user20	user22	user30	user35	user45	user48	user51	user5	
-bs105:user16	user34	
-bs106:user0	user14	user33	user53	user64	user86	user92	user68	user27	
-bs107:user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user97	user96	user50	user49	user35	
-bs108:user61	user73	user82	user9	user77	user44	
-bs109:user0	user27	
+rtt_med: NaN
 
+bs102:	user85	user56	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user33	user53	user64	user86	user92	user68	user39	user52	user10	user27
+	该基站连接的user个数为：22
+
+bs103:	user67	user98	user2	user87	user31	user4	user7	user20	user22	user27	user30	user45	user48	user51	user97	user0	user26	user10	user35	user68	user5	user47	user56	user23	user62	user24	user14	user3	user46	user50	user33	user86
+	该基站连接的user个数为：32
+
+bs104:	user67	user2	user31	user7	user20	user22	user30	user35	user45	user48	user51	user4	user5	user47	user50
+	该基站连接的user个数为：15
+
+bs106:	user85	user56	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user33	user53	user64	user86	user92	user68	user39	user52	user10	user27
+	该基站连接的user个数为：22
+
+bs107:	user5	user46	user66	user67	user98	user2	user31	user99	user19	user38	user45	user51	user48	user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user97	user96	user94	user50	user88	user81	user49	user35
+	该基站连接的user个数为：31
+
+bs100:	user29	user91	user52	user42	user71	user54	user17	user92	user36
+	该基站连接的user个数为：9
+
+bs109:	user56	user87	user68	user45	user33	user10	user35	user0	user27	user14	user31
+	该基站连接的user个数为：11
+
+bs108:	user37	user43	user69	user78	user59	user93	user18	user63	user80	user8	user49	user72	user16	user58	user11	user84	user75	user61	user73	user82	user66	user9	user77	user99	user89	user19	user34	user96	user44
+	该基站连接的user个数为：29
+
+bs101:	user29	user91	user52	user42	user57	user76	user71	user1	user39	user6	user54	user70	user17	user36	user92	user12	user53
+	该基站连接的user个数为：17
+
+bs105:	user37	user69	user78	user18	user63	user80	user8	user84	user73	user16	user61	user34
+	该基站连接的user个数为：12
+
+覆盖user数目最多的基站：bs103
 
 Message stats for scenario komorebi
 sim_time: 700.0000
@@ -203,17 +335,39 @@ hopcount_med: 3
 buffertime_avg: 46.9463
 buffertime_med: 6.0000
 rtt_avg: NaN
-rtt_med: NaNbs100:user17	user92	user36	
-bs101:user17	user53	
-bs102:user0	user14	user33	user53	user64	user86	user92	user10	user27	
-bs103:user4	user7	user20	user22	user27	user30	user45	user48	user51	user97	user0	user10	user35	user5	user47	user62	user24	user14	user50	user33	user49	
-bs104:user7	user20	user22	user30	user35	user45	user48	user51	user5	user38	user56	
-bs105:user16	user34	
-bs106:user0	user14	user33	user53	user64	user86	user92	user68	user27	
-bs107:user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user97	user96	user50	user49	user35	user23	
-bs108:user61	user73	user82	user9	user77	user55	
-bs109:user0	user27	
+rtt_med: NaN
 
+bs102:	user85	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user33	user53	user64	user86	user92	user68	user39	user52	user10	user27
+	该基站连接的user个数为：21
+
+bs103:	user67	user98	user2	user87	user31	user4	user7	user20	user22	user27	user30	user45	user48	user51	user97	user0	user26	user10	user35	user68	user5	user47	user56	user23	user62	user24	user14	user3	user50	user33	user86	user94	user40	user38	user49	user88
+	该基站连接的user个数为：36
+
+bs104:	user67	user2	user31	user7	user20	user22	user30	user35	user45	user48	user51	user4	user5	user47	user50	user94	user38	user56
+	该基站连接的user个数为：18
+
+bs106:	user85	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user33	user53	user64	user86	user92	user68	user39	user52	user10	user27
+	该基站连接的user个数为：21
+
+bs107:	user5	user46	user66	user67	user98	user2	user31	user99	user19	user38	user45	user51	user48	user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user97	user96	user94	user50	user88	user81	user49	user35	user23	user56
+	该基站连接的user个数为：33
+
+bs100:	user29	user91	user52	user42	user71	user54	user17	user92	user36
+	该基站连接的user个数为：9
+
+bs109:	user56	user87	user68	user45	user33	user10	user35	user0	user27	user14	user31	user20
+	该基站连接的user个数为：12
+
+bs108:	user37	user43	user69	user78	user93	user18	user63	user80	user8	user72	user16	user58	user11	user84	user75	user61	user73	user82	user66	user9	user77	user99	user89	user19	user34	user96	user55	user81	user60
+	该基站连接的user个数为：29
+
+bs101:	user29	user91	user52	user42	user57	user71	user1	user54	user17	user36	user92	user12	user53
+	该基站连接的user个数为：13
+
+bs105:	user37	user69	user78	user18	user63	user80	user8	user73	user16	user61	user34
+	该基站连接的user个数为：11
+
+覆盖user数目最多的基站：bs103
 
 Message stats for scenario komorebi
 sim_time: 800.0000
@@ -234,17 +388,39 @@ hopcount_med: 3
 buffertime_avg: 45.3339
 buffertime_med: 6.0000
 rtt_avg: NaN
-rtt_med: NaNbs100:user17	user92	user36	
-bs101:user17	user53	user15	user59	user41	
-bs102:user0	user14	user33	user53	user64	user92	user10	user27	user24	user3	
-bs103:user4	user7	user20	user22	user27	user30	user45	user48	user51	user97	user0	user10	user35	user5	user47	user62	user24	user14	user50	user49	user28	
-bs104:user7	user20	user22	user35	user45	user48	user51	user5	user38	user56	user23	
-bs105:user16	user34	
-bs106:user0	user14	user33	user53	user64	user86	user92	user68	user27	user24	user3	
-bs107:user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user97	user96	user50	user49	user35	user23	user72	user28	
-bs108:user61	user73	user82	user9	user77	user55	
-bs109:user0	user27	
+rtt_med: NaN
 
+bs102:	user85	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user33	user53	user64	user92	user68	user39	user52	user10	user27	user24	user3
+	该基站连接的user个数为：22
+
+bs103:	user67	user98	user2	user31	user4	user7	user20	user22	user27	user30	user45	user48	user51	user97	user0	user10	user35	user68	user5	user47	user56	user23	user62	user24	user14	user3	user50	user86	user94	user38	user49	user88	user28
+	该基站连接的user个数为：33
+
+bs104:	user67	user2	user31	user7	user20	user22	user35	user45	user48	user51	user4	user5	user47	user50	user94	user38	user56	user88	user23
+	该基站连接的user个数为：19
+
+bs106:	user85	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user33	user53	user64	user86	user92	user68	user39	user52	user10	user27	user24	user3
+	该基站连接的user个数为：23
+
+bs107:	user5	user66	user67	user98	user2	user31	user99	user19	user38	user45	user51	user48	user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user97	user96	user94	user50	user88	user81	user49	user35	user23	user56	user72	user28
+	该基站连接的user个数为：34
+
+bs100:	user29	user91	user52	user42	user71	user54	user17	user92	user36	user53
+	该基站连接的user个数为：10
+
+bs109:	user56	user87	user68	user45	user10	user35	user0	user27	user14	user31	user20	user51
+	该基站连接的user个数为：12
+
+bs108:	user37	user43	user69	user78	user18	user63	user80	user8	user72	user16	user58	user11	user84	user75	user61	user73	user82	user66	user9	user77	user99	user89	user19	user34	user96	user55	user81	user60	user70	user26
+	该基站连接的user个数为：30
+
+bs101:	user29	user91	user52	user42	user71	user54	user17	user36	user92	user53	user15	user59	user41	user64
+	该基站连接的user个数为：14
+
+bs105:	user37	user69	user63	user8	user73	user16	user61	user34	user43
+	该基站连接的user个数为：9
+
+覆盖user数目最多的基站：bs107
 
 Message stats for scenario komorebi
 sim_time: 900.0000
@@ -265,17 +441,39 @@ hopcount_med: 3
 buffertime_avg: 42.2846
 buffertime_med: 6.0000
 rtt_avg: NaN
-rtt_med: NaNbs100:user17	user92	user36	user15	user41	
-bs101:user17	user53	user15	user59	user41	user40	
-bs102:user0	user14	user33	user53	user64	user92	user10	user27	user24	user3	
-bs103:user4	user7	user20	user22	user27	user30	user45	user48	user51	user97	user0	user10	user35	user5	user47	user62	user24	user14	user50	user49	user28	
-bs104:user7	user20	user22	user35	user45	user48	user51	user5	user38	user56	user23	
-bs105:user16	user34	user89	
-bs106:user0	user14	user33	user53	user64	user92	user68	user27	user24	user3	user71	
-bs107:user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user96	user50	user49	user35	user23	user72	user28	user77	
-bs108:user61	user73	user82	user9	user77	user55	user25	
-bs109:user0	user27	user23	
+rtt_med: NaN
 
+bs102:	user85	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user33	user53	user64	user92	user68	user39	user52	user10	user27	user24	user3	user71
+	该基站连接的user个数为：23
+
+bs103:	user67	user98	user2	user31	user4	user7	user20	user22	user27	user30	user45	user48	user51	user97	user0	user10	user35	user68	user5	user47	user56	user23	user62	user24	user14	user3	user50	user86	user94	user38	user49	user88	user28
+	该基站连接的user个数为：33
+
+bs104:	user67	user2	user31	user7	user20	user22	user35	user45	user48	user51	user4	user5	user47	user50	user94	user38	user56	user88	user23	user49
+	该基站连接的user个数为：20
+
+bs106:	user85	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user33	user53	user64	user92	user68	user39	user52	user10	user27	user24	user3	user71
+	该基站连接的user个数为：23
+
+bs107:	user5	user66	user67	user98	user2	user31	user99	user19	user38	user45	user51	user48	user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user96	user94	user50	user88	user81	user49	user35	user23	user56	user72	user28	user77
+	该基站连接的user个数为：34
+
+bs100:	user29	user52	user42	user71	user54	user17	user92	user36	user53	user15	user41
+	该基站连接的user个数为：11
+
+bs109:	user56	user68	user45	user10	user35	user0	user27	user14	user31	user20	user51	user23	user48
+	该基站连接的user个数为：13
+
+bs108:	user37	user43	user69	user78	user18	user63	user80	user8	user72	user16	user58	user11	user84	user75	user61	user73	user82	user66	user9	user77	user99	user89	user19	user34	user96	user55	user81	user60	user70	user26	user6	user76	user25
+	该基站连接的user个数为：33
+
+bs101:	user29	user91	user52	user42	user71	user54	user17	user36	user92	user53	user15	user59	user41	user64	user40	user44
+	该基站连接的user个数为：16
+
+bs105:	user37	user69	user63	user8	user73	user16	user34	user43	user89
+	该基站连接的user个数为：9
+
+覆盖user数目最多的基站：bs107
 
 Message stats for scenario komorebi
 sim_time: 1000.0000
@@ -296,15 +494,37 @@ hopcount_med: 3
 buffertime_avg: 43.2852
 buffertime_med: 6.0000
 rtt_avg: NaN
-rtt_med: NaNbs100:user17	user92	user36	user15	user41	
-bs101:user17	user53	user15	user59	user41	user40	
-bs102:user0	user14	user33	user53	user64	user92	user10	user27	user24	user3	
-bs103:user4	user7	user20	user22	user27	user30	user45	user48	user51	user0	user10	user35	user5	user47	user62	user24	user14	user50	user49	user28	user95	user33	
-bs104:user7	user20	user22	user35	user45	user48	user51	user5	user38	user56	user23	
-bs105:user16	user34	user89	user82	
-bs106:user0	user14	user33	user53	user64	user92	user68	user27	user24	user3	user71	user40	
-bs107:user4	user7	user20	user22	user30	user47	user62	user65	user75	user96	user50	user49	user35	user23	user72	user28	user77	
-bs108:user61	user73	user82	user9	user77	user55	user1	
-bs109:user0	user27	user23	
+rtt_med: NaN
 
+bs102:	user85	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user33	user53	user64	user92	user68	user39	user52	user10	user27	user24	user3	user71	user40
+	该基站连接的user个数为：24
+
+bs103:	user67	user98	user2	user31	user4	user7	user20	user22	user27	user30	user45	user48	user51	user0	user10	user35	user68	user5	user47	user56	user23	user62	user24	user14	user3	user50	user86	user94	user38	user49	user88	user28	user95	user33	user72
+	该基站连接的user个数为：35
+
+bs104:	user67	user2	user31	user7	user20	user22	user35	user45	user48	user51	user4	user5	user47	user50	user94	user38	user56	user88	user23	user49
+	该基站连接的user个数为：20
+
+bs106:	user85	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user33	user53	user64	user92	user68	user39	user52	user10	user27	user24	user3	user71	user40
+	该基站连接的user个数为：24
+
+bs107:	user5	user66	user67	user98	user2	user31	user99	user19	user38	user45	user51	user48	user4	user7	user20	user22	user30	user47	user62	user65	user75	user96	user94	user50	user88	user81	user49	user35	user23	user56	user72	user28	user77
+	该基站连接的user个数为：33
+
+bs100:	user29	user52	user42	user71	user54	user17	user92	user36	user53	user15	user41	user64
+	该基站连接的user个数为：12
+
+bs109:	user56	user68	user45	user10	user35	user0	user27	user14	user31	user20	user51	user23	user48	user24	user3
+	该基站连接的user个数为：15
+
+bs108:	user37	user43	user69	user78	user18	user63	user80	user8	user16	user58	user11	user84	user75	user61	user73	user82	user66	user9	user77	user99	user89	user19	user34	user96	user55	user81	user60	user70	user26	user6	user76	user13	user1
+	该基站连接的user个数为：33
+
+bs101:	user29	user91	user52	user42	user71	user54	user17	user36	user92	user53	user15	user59	user41	user64	user40	user44	user32	user93
+	该基站连接的user个数为：18
+
+bs105:	user37	user69	user63	user8	user73	user16	user34	user43	user89	user82
+	该基站连接的user个数为：10
+
+覆盖user数目最多的基站：bs103
 
