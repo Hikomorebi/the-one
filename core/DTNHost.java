@@ -29,6 +29,11 @@ public class DTNHost implements Comparable<DTNHost> {
 	private double speed;
 	private double nextTimeToMove;
 	private String name;
+	private String groupId;
+	public String getGroupId() {
+		return groupId;
+	}
+
 	private List<MessageListener> msgListeners;
 	private List<MovementListener> movListeners;
 	private List<NetworkInterface> net;
@@ -57,6 +62,7 @@ public class DTNHost implements Comparable<DTNHost> {
 		this.location = new Coord(0,0);
 		this.address = getNextAddress();
 		this.name = groupId+address;
+		this.groupId = groupId;
 		this.net = new ArrayList<NetworkInterface>();
 
 		for (NetworkInterface i : interf) {
@@ -103,6 +109,10 @@ public class DTNHost implements Comparable<DTNHost> {
 	 */
 	public static void reset() {
 		nextAddress = 0;
+	}
+
+	public String getName() {
+		return name;
 	}
 
 	/**

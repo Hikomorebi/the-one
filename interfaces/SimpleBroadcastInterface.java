@@ -46,7 +46,8 @@ public class SimpleBroadcastInterface extends NetworkInterface {
 				&& anotherInterface.getHost().isRadioActive() 
 				&& isWithinRange(anotherInterface) 
 				&& !isConnected(anotherInterface)
-				&& (this != anotherInterface)) {
+				&& (this != anotherInterface)
+				&&(!this.getHost().getGroupId().equals("user")||!anotherInterface.getHost().getGroupId().equals("user"))) {
 			// new contact within range
 			// connection speed is the lower one of the two speeds 
 			int conSpeed = anotherInterface.getTransmitSpeed(this);

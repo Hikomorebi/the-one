@@ -18,7 +18,7 @@ import core.Settings;
 import core.SimClock;
 import core.SimError;
 import core.SimScenario;
-
+import core.World;
 /**
  * Abstract superclass for all reports. All settings defined in this class
  * can be used for all Report classes. Some reports don't implement intervalled
@@ -192,7 +192,7 @@ public abstract class Report {
 	 */
 	private void createOutput(String outFileName) {
 		try {
-			this.out = new PrintWriter(new FileWriter(outFileName));
+			this.out = new PrintWriter(new FileWriter(outFileName,true));
 		} catch (IOException e) {
 			throw new SimError("Couldn't open file '" + outFileName + 
 					"' for report output\n" + e.getMessage(), e);
@@ -333,6 +333,9 @@ public abstract class Report {
 		if (out != null) {
 			out.close();
 		}
+	}
+	public void done1(World world) {
+		
 	}
 	
 	/**

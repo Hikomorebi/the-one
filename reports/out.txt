@@ -1,0 +1,310 @@
+Message stats for scenario komorebi
+sim_time: 100.0000
+created: 3
+started: 285
+relayed: 277
+aborted: 0
+dropped: 0
+removed: 0
+delivered: 3
+delivery_prob: 1.0000
+response_prob: 0.0000
+overhead_ratio: 91.3333
+latency_avg: 14.6667
+latency_med: 12.0000
+hopcount_avg: 2.6667
+hopcount_med: 2
+buffertime_avg: NaN
+buffertime_med: NaN
+rtt_avg: NaN
+rtt_med: NaNbs100:user14	user17	user28	user92	
+bs101:user14	user17	user28	user55	
+bs102:user0	user14	user17	user23	user28	user33	user53	user64	user86	user92	
+bs103:user4	user7	user20	user22	user27	user30	user44	user45	user48	user51	user64	user65	user97	user0	user77	
+bs104:user7	user20	user22	user27	user30	user35	user45	user48	user51	user65	user97	user26	
+bs105:user16	
+bs106:user0	user14	user17	user23	user28	user33	user53	user64	user86	user92	
+bs107:user4	user7	user11	user20	user22	user26	user30	user47	user62	user65	user75	user77	user97	user96	user9	user50	
+bs108:user61	user73	user82	
+bs109:user0	user27	user64	
+
+
+Message stats for scenario komorebi
+sim_time: 200.0000
+created: 6
+started: 630
+relayed: 630
+aborted: 0
+dropped: 0
+removed: 0
+delivered: 6
+delivery_prob: 1.0000
+response_prob: 0.0000
+overhead_ratio: 104.0000
+latency_avg: 13.3333
+latency_med: 14.0000
+hopcount_avg: 3.5000
+hopcount_med: 4
+buffertime_avg: NaN
+buffertime_med: NaN
+rtt_avg: NaN
+rtt_med: NaNbs100:user14	user17	user28	user92	
+bs101:user14	user17	user28	
+bs102:user0	user14	user17	user23	user33	user53	user64	user86	user92	
+bs103:user4	user7	user20	user22	user27	user30	user44	user45	user48	user51	user64	user65	user97	user0	user10	user62	user35	
+bs104:user7	user20	user22	user27	user30	user35	user45	user48	user51	user65	user97	user26	
+bs105:user16	
+bs106:user0	user14	user17	user23	user33	user53	user64	user86	user92	user68	
+bs107:user4	user7	user11	user20	user22	user26	user30	user47	user62	user65	user75	user77	user97	user96	user50	
+bs108:user61	user73	user82	user9	
+bs109:user0	user27	user64	
+
+
+Message stats for scenario komorebi
+sim_time: 300.0000
+created: 10
+started: 751
+relayed: 748
+aborted: 0
+dropped: 112
+removed: 0
+delivered: 6
+delivery_prob: 0.6000
+response_prob: 0.0000
+overhead_ratio: 123.6667
+latency_avg: 13.3333
+latency_med: 14.0000
+hopcount_avg: 3.5000
+hopcount_med: 4
+buffertime_avg: 49.6339
+buffertime_med: 6.0000
+rtt_avg: NaN
+rtt_med: NaNbs100:user17	user28	user92	
+bs101:user14	user17	user28	
+bs102:user0	user14	user17	user23	user33	user53	user64	user86	user92	
+bs103:user4	user7	user20	user22	user27	user30	user44	user45	user48	user51	user64	user65	user97	user0	user10	user62	user35	user40	
+bs104:user7	user20	user22	user30	user35	user45	user48	user51	user65	user97	user26	
+bs105:user16	
+bs106:user0	user14	user17	user23	user33	user53	user64	user86	user92	user68	
+bs107:user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user77	user97	user96	user50	
+bs108:user61	user73	user82	user9	user77	
+bs109:user0	user27	user64	
+
+
+Message stats for scenario komorebi
+sim_time: 400.0000
+created: 13
+started: 1164
+relayed: 1157
+aborted: 0
+dropped: 522
+removed: 0
+delivered: 6
+delivery_prob: 0.4615
+response_prob: 0.0000
+overhead_ratio: 191.8333
+latency_avg: 13.3333
+latency_med: 14.0000
+hopcount_avg: 3.5000
+hopcount_med: 4
+buffertime_avg: 56.2605
+buffertime_med: 6.0000
+rtt_avg: NaN
+rtt_med: NaNbs100:user17	user92	
+bs101:user17	user28	
+bs102:user0	user14	user17	user23	user33	user53	user64	user86	user92	
+bs103:user4	user7	user20	user22	user27	user30	user45	user48	user51	user64	user65	user97	user0	user10	user35	user40	user5	user47	user33	
+bs104:user7	user20	user22	user30	user35	user45	user48	user51	user65	user97	user26	user5	
+bs105:user16	
+bs106:user0	user14	user17	user23	user33	user53	user64	user86	user92	user68	
+bs107:user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user97	user96	user50	user49	
+bs108:user61	user73	user82	user9	user77	user44	user25	
+bs109:user0	user27	user64	
+
+
+Message stats for scenario komorebi
+sim_time: 500.0000
+created: 17
+started: 2010
+relayed: 2001
+aborted: 0
+dropped: 1369
+removed: 0
+delivered: 7
+delivery_prob: 0.4118
+response_prob: 0.0000
+overhead_ratio: 284.8571
+latency_avg: 17.5714
+latency_med: 14.0000
+hopcount_avg: 3.2857
+hopcount_med: 3
+buffertime_avg: 60.5880
+buffertime_med: 6.0000
+rtt_avg: NaN
+rtt_med: NaNbs100:user17	user92	
+bs101:user17	user28	
+bs102:user0	user14	user17	user23	user33	user53	user64	user86	user92	user10	user27	
+bs103:user4	user7	user20	user22	user27	user30	user45	user48	user51	user64	user65	user97	user0	user10	user35	user5	user47	user62	
+bs104:user7	user20	user22	user30	user35	user45	user48	user51	user65	user97	user26	user5	
+bs105:user16	
+bs106:user0	user14	user17	user23	user33	user53	user64	user86	user92	user68	
+bs107:user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user97	user96	user50	user49	
+bs108:user61	user73	user82	user9	user77	user44	
+bs109:user0	user27	user64	
+
+
+Message stats for scenario komorebi
+sim_time: 600.0000
+created: 20
+started: 2914
+relayed: 2905
+aborted: 0
+dropped: 2275
+removed: 0
+delivered: 8
+delivery_prob: 0.4000
+response_prob: 0.0000
+overhead_ratio: 362.1250
+latency_avg: 15.5000
+latency_med: 14.0000
+hopcount_avg: 3.0000
+hopcount_med: 3
+buffertime_avg: 49.5275
+buffertime_med: 6.0000
+rtt_avg: NaN
+rtt_med: NaNbs100:user17	user92	user36	
+bs101:user17	user53	
+bs102:user0	user14	user33	user53	user64	user86	user92	user10	user27	
+bs103:user4	user7	user20	user22	user27	user30	user45	user48	user51	user97	user0	user10	user35	user5	user47	user62	user24	user14	user50	user33	
+bs104:user7	user20	user22	user30	user35	user45	user48	user51	user5	
+bs105:user16	user34	
+bs106:user0	user14	user33	user53	user64	user86	user92	user68	user27	
+bs107:user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user97	user96	user50	user49	user35	
+bs108:user61	user73	user82	user9	user77	user44	
+bs109:user0	user27	
+
+
+Message stats for scenario komorebi
+sim_time: 700.0000
+created: 24
+started: 3767
+relayed: 3758
+aborted: 0
+dropped: 3131
+removed: 0
+delivered: 8
+delivery_prob: 0.3333
+response_prob: 0.0000
+overhead_ratio: 468.7500
+latency_avg: 15.5000
+latency_med: 14.0000
+hopcount_avg: 3.0000
+hopcount_med: 3
+buffertime_avg: 46.9463
+buffertime_med: 6.0000
+rtt_avg: NaN
+rtt_med: NaNbs100:user17	user92	user36	
+bs101:user17	user53	
+bs102:user0	user14	user33	user53	user64	user86	user92	user10	user27	
+bs103:user4	user7	user20	user22	user27	user30	user45	user48	user51	user97	user0	user10	user35	user5	user47	user62	user24	user14	user50	user33	user49	
+bs104:user7	user20	user22	user30	user35	user45	user48	user51	user5	user38	user56	
+bs105:user16	user34	
+bs106:user0	user14	user33	user53	user64	user86	user92	user68	user27	
+bs107:user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user97	user96	user50	user49	user35	user23	
+bs108:user61	user73	user82	user9	user77	user55	
+bs109:user0	user27	
+
+
+Message stats for scenario komorebi
+sim_time: 800.0000
+created: 27
+started: 4666
+relayed: 4657
+aborted: 0
+dropped: 4031
+removed: 0
+delivered: 8
+delivery_prob: 0.2963
+response_prob: 0.0000
+overhead_ratio: 581.1250
+latency_avg: 15.5000
+latency_med: 14.0000
+hopcount_avg: 3.0000
+hopcount_med: 3
+buffertime_avg: 45.3339
+buffertime_med: 6.0000
+rtt_avg: NaN
+rtt_med: NaNbs100:user17	user92	user36	
+bs101:user17	user53	user15	user59	user41	
+bs102:user0	user14	user33	user53	user64	user92	user10	user27	user24	user3	
+bs103:user4	user7	user20	user22	user27	user30	user45	user48	user51	user97	user0	user10	user35	user5	user47	user62	user24	user14	user50	user49	user28	
+bs104:user7	user20	user22	user35	user45	user48	user51	user5	user38	user56	user23	
+bs105:user16	user34	
+bs106:user0	user14	user33	user53	user64	user86	user92	user68	user27	user24	user3	
+bs107:user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user97	user96	user50	user49	user35	user23	user72	user28	
+bs108:user61	user73	user82	user9	user77	user55	
+bs109:user0	user27	
+
+
+Message stats for scenario komorebi
+sim_time: 900.0000
+created: 30
+started: 5560
+relayed: 5551
+aborted: 0
+dropped: 4926
+removed: 0
+delivered: 8
+delivery_prob: 0.2667
+response_prob: 0.0000
+overhead_ratio: 692.8750
+latency_avg: 15.5000
+latency_med: 14.0000
+hopcount_avg: 3.0000
+hopcount_med: 3
+buffertime_avg: 42.2846
+buffertime_med: 6.0000
+rtt_avg: NaN
+rtt_med: NaNbs100:user17	user92	user36	user15	user41	
+bs101:user17	user53	user15	user59	user41	user40	
+bs102:user0	user14	user33	user53	user64	user92	user10	user27	user24	user3	
+bs103:user4	user7	user20	user22	user27	user30	user45	user48	user51	user97	user0	user10	user35	user5	user47	user62	user24	user14	user50	user49	user28	
+bs104:user7	user20	user22	user35	user45	user48	user51	user5	user38	user56	user23	
+bs105:user16	user34	user89	
+bs106:user0	user14	user33	user53	user64	user92	user68	user27	user24	user3	user71	
+bs107:user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user96	user50	user49	user35	user23	user72	user28	user77	
+bs108:user61	user73	user82	user9	user77	user55	user25	
+bs109:user0	user27	user23	
+
+
+Message stats for scenario komorebi
+sim_time: 1000.0000
+created: 33
+started: 6474
+relayed: 6464
+aborted: 0
+dropped: 5837
+removed: 0
+delivered: 8
+delivery_prob: 0.2424
+response_prob: 0.0000
+overhead_ratio: 807.0000
+latency_avg: 15.5000
+latency_med: 14.0000
+hopcount_avg: 3.0000
+hopcount_med: 3
+buffertime_avg: 43.2852
+buffertime_med: 6.0000
+rtt_avg: NaN
+rtt_med: NaNbs100:user17	user92	user36	user15	user41	
+bs101:user17	user53	user15	user59	user41	user40	
+bs102:user0	user14	user33	user53	user64	user92	user10	user27	user24	user3	
+bs103:user4	user7	user20	user22	user27	user30	user45	user48	user51	user0	user10	user35	user5	user47	user62	user24	user14	user50	user49	user28	user95	user33	
+bs104:user7	user20	user22	user35	user45	user48	user51	user5	user38	user56	user23	
+bs105:user16	user34	user89	user82	
+bs106:user0	user14	user33	user53	user64	user92	user68	user27	user24	user3	user71	user40	
+bs107:user4	user7	user20	user22	user30	user47	user62	user65	user75	user96	user50	user49	user35	user23	user72	user28	user77	
+bs108:user61	user73	user82	user9	user77	user55	user1	
+bs109:user0	user27	user23	
+
+
