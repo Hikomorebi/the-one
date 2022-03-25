@@ -58,7 +58,7 @@ abstract public class NetworkInterface implements ModuleCommunicationListener {
 	private int address; // network interface address
 	protected double transmitRange;
 	protected double oldTransmitRange;
-	protected int transmitSpeed;
+	public static int transmitSpeed;
 	protected ConnectivityOptimizer optimizer = null;
 	/** scanning interval, or 0.0 if n/a */
 	private double scanInterval;

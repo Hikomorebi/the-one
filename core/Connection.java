@@ -15,10 +15,6 @@ public abstract class Connection {
 		return toNode;
 	}
 
-	public DTNHost getFromNode() {
-		return fromNode;
-	}
-
 	protected NetworkInterface toInterface;
 	protected DTNHost fromNode;
 	protected NetworkInterface fromInterface;

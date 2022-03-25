@@ -19,12 +19,12 @@ Scenario.endTime = 1000
 
 bsInterface.type = SimpleBroadcastInterface
 # Transmit speed of 2 Mbps = 250kBps
-bsInterface.transmitSpeed = 1000M
+bsInterface.transmitSpeed = 20M
 bsInterface.transmitRange = 1000
 
 # High speed, long range, interface for group 4
 coreInterface.type = SimpleBroadcastInterface
-coreInterface.transmitSpeed = 1000M
+coreInterface.transmitSpeed = 20M
 coreInterface.transmitRange = 100000
 
 

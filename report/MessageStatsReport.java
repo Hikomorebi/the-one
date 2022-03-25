@@ -20,6 +20,7 @@ import core.DTNHost;
 import core.Message;
 import core.MessageListener;
 import core.World;
+import interfaces.SimpleBroadcastInterface;
 
 /**
  * Report for generating different kind of total statistics about message
@@ -147,15 +148,6 @@ public class MessageStatsReport extends Report implements MessageListener {
 		File file = new File(saveFile);
 		FileOutputStream fos = null;
 		OutputStreamWriter osw = null;
-		System.out.println("user1:");
-		for (Integer i : world.userOneBS) {
-			System.out.println("bs" + i);
-		}
-		System.out.println("user10");
-		for (Integer i : world.userTenBS) {
-			System.out.println("bs" + i);
-		}
-		System.out.println();
 
 		try {
 			if (!file.exists()) {
@@ -182,17 +174,19 @@ public class MessageStatsReport extends Report implements MessageListener {
 			if (this.nrofResponseReqCreated > 0) {
 				responseProb = (1.0 * this.nrofResponseDelivered) / this.nrofResponseReqCreated;
 			}
+			
 
-			String statsText = "\ncreated: " + this.nrofCreated + "\nstarted: " + this.nrofStarted + "\nrelayed: "
-					+ this.nrofRelayed + "\naborted: " + this.nrofAborted + "\ndropped: " + this.nrofDropped
-					+ "\nremoved: " + this.nrofRemoved + "\ndelivered: " + this.nrofDelivered + "\ndelivery_prob: "
-					+ format(deliveryProb) + "\nresponse_prob: " + format(responseProb) + "\noverhead_ratio: "
-					+ format(overHead) + "\nlatency_avg: " + getAverage(this.latencies) + "\nlatency_med: "
-					+ getMedian(this.latencies) + "\nhopcount_avg: " + getIntAverage(this.hopCounts)
-					+ "\nhopcount_med: " + getIntMedian(this.hopCounts) + "\nbuffertime_avg: "
-					+ getAverage(this.msgBufferTime) + "\nbuffertime_med: " + getMedian(this.msgBufferTime)
-					+ "\nrtt_avg: " + getAverage(this.rtt) + "\nrtt_med: " + getMedian(this.rtt);
+//			String statsText = "\ncreated: " + this.nrofCreated + "\nstarted: " + this.nrofStarted + "\nrelayed: "
+//					+ this.nrofRelayed + "\naborted: " + this.nrofAborted + "\ndropped: " + this.nrofDropped
+//					+ "\nremoved: " + this.nrofRemoved + "\ndelivered: " + this.nrofDelivered + "\ndelivery_prob: "
+//					+ format(deliveryProb) + "\nresponse_prob: " + format(responseProb) + "\noverhead_ratio: "
+//					+ format(overHead) + "\nlatency_avg: " + getAverage(this.latencies) + "\nlatency_med: "
+//					+ getMedian(this.latencies) + "\nhopcount_avg: " + getIntAverage(this.hopCounts)
+//					+ "\nhopcount_med: " + getIntMedian(this.hopCounts) + "\nbuffertime_avg: "
+//					+ getAverage(this.msgBufferTime) + "\nbuffertime_med: " + getMedian(this.msgBufferTime)
+//					+ "\nrtt_avg: " + getAverage(this.rtt) + "\nrtt_med: " + getMedian(this.rtt);
 			String myText = "";
+			String mySpeed = "";
 			int count = 0, maxcount = -1;
 			HashMap<String, Integer> map = new HashMap<String, Integer>();
 			for (DTNHost host : world.getHosts()) {
@@ -239,9 +233,27 @@ public class MessageStatsReport extends Report implements MessageListener {
 //					myText+="\n";
 //				}
 //			}
+			for (DTNHost host : world.getHosts()) {
+				if (host.getName().equals("bs106")) {
+					mySpeed += ("基站7：" + host.getName() + "\n");
+					for (Connection connection : host.getConnections()) {
+						if (connection.getToNode().getGroupId().equals("user")) {
+							mySpeed += ("\t" + connection.getToNode().getName() + "  " + "\t");
+							int BW = (int) Math.floor((double) SimpleBroadcastInterface.transmitSpeed);
+							double dis = host.getLocation().distance(connection.getToNode().getLocation());
+							double r = BW * Math.log(1 + 5 / dis) / Math.log(2);
+							r = r / 1000;
+							mySpeed += "速率 = " + r + "Kb/s" + "\n";
+						}
+					}
+					break;
+				}
+
+			}
+			mySpeed+="\n";
 			String routeText = "\nuser1给user10通信所经过的基站序列";
 //			
-			int countBS=0;
+			int countBS = 0;
 			if (World.userOneBS.size() == 0 || World.userOneBS.size() == 0) {
 				routeText += "不存在";
 			} else {
@@ -254,65 +266,66 @@ public class MessageStatsReport extends Report implements MessageListener {
 					}
 				}
 				if (oneBS.size() == 0) {
-					countBS=World.userOneBS.size();
+					countBS = World.userOneBS.size();
 					routeText += "可能为：user1->";
-					countBS=World.userOneBS.size();
+					countBS = World.userOneBS.size();
 					for (Integer i : World.userOneBS) {
-						routeText += "bs"+i ;
-						if(countBS-->1) {
-							routeText+="/";
+						routeText += "bs" + i;
+						if (countBS-- > 1) {
+							routeText += "/";
 						}
 					}
 					routeText += "->";
-					countBS=World.userTenBS.size();
+					countBS = World.userTenBS.size();
 					for (Integer i : World.userTenBS) {
 						routeText += "bs" + i;
-						if(countBS-->1) {
-							routeText+="/";
+						if (countBS-- > 1) {
+							routeText += "/";
 						}
 					}
 					routeText += "->user10";
 
 				} else {
-					routeText+="可能为:user1->";
-					countBS=oneBS.size();
-					for(Integer i:oneBS) {
-						routeText+="bs"+i;
-						if(countBS-->1) {
-							routeText+="/";
+					routeText += "可能为:user1->";
+					countBS = oneBS.size();
+					for (Integer i : oneBS) {
+						routeText += "bs" + i;
+						if (countBS-- > 1) {
+							routeText += "/";
 						}
 					}
-					routeText+="->user10\n也可能为:user1->";
-					countBS=World.userOneBS.size();
+					routeText += "->user10\n也可能为:user1->";
+					countBS = World.userOneBS.size();
 					for (Integer i : World.userOneBS) {
-						if(!oneBS.contains(i)) {
-							routeText += "bs"+i ;
+						if (!oneBS.contains(i)) {
+							routeText += "bs" + i;
 						}
-						
-						if(countBS-->1) {
-							routeText+="/";
+
+						if (countBS-- > 1) {
+							routeText += "/";
 						}
 					}
 					routeText += "->";
-					countBS=World.userTenBS.size();
+					countBS = World.userTenBS.size();
 					for (Integer i : World.userTenBS) {
-						if(!oneBS.contains(i)) {
-							routeText += "bs"+i ;
+						if (!oneBS.contains(i)) {
+							routeText += "bs" + i;
 						}
-						
-						if(countBS-->1) {
-							routeText+="/";
+
+						if (countBS-- > 1) {
+							routeText += "/";
 						}
 					}
 					routeText += "->user10";
-					
+
 				}
 			}
-			routeText+="\n\n";
-			osw.write(statsText);
+			routeText += "\n";
+			//osw.write(statsText);
 			osw.write("\r\n");
 			osw.write(myText);
 			osw.write(routeText);
+			osw.write(mySpeed);
 
 		} catch (Exception e) {
 			e.printStackTrace();

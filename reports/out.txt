@@ -1,560 +1,472 @@
 Message stats for scenario komorebi
 sim_time: 100.0000
-created: 3
-started: 285
-relayed: 277
-aborted: 0
-dropped: 0
-removed: 0
-delivered: 3
-delivery_prob: 1.0000
-response_prob: 0.0000
-overhead_ratio: 91.3333
-latency_avg: 14.6667
-latency_med: 12.0000
-hopcount_avg: 2.6667
-hopcount_med: 2
-buffertime_avg: NaN
-buffertime_med: NaN
-rtt_avg: NaN
-rtt_med: NaN
-
 bs102:	user85	user56	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user17	user23	user28	user33	user53	user64	user86	user92
-	该基站连接的user个数为：20
+该基站连接的user个数为：20
 
 bs103:	user40	user66	user67	user15	user98	user32	user2	user87	user31	user4	user7	user20	user22	user27	user30	user44	user45	user48	user51	user64	user65	user97	user0	user77	user26
-	该基站连接的user个数为：25
+该基站连接的user个数为：25
 
 bs104:	user67	user2	user31	user7	user20	user22	user27	user30	user35	user45	user48	user51	user65	user97	user26
-	该基站连接的user个数为：15
+该基站连接的user个数为：15
 
 bs106:	user85	user56	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user17	user23	user28	user33	user53	user64	user86	user92
-	该基站连接的user个数为：20
+该基站连接的user个数为：20
 
 bs107:	user40	user5	user46	user66	user67	user98	user2	user31	user25	user99	user19	user38	user44	user45	user51	user48	user4	user7	user11	user20	user22	user26	user30	user47	user62	user65	user75	user77	user97	user96	user94	user9	user50
-	该基站连接的user个数为：33
+该基站连接的user个数为：33
 
 bs100:	user29	user91	user52	user12	user42	user71	user1	user6	user54	user14	user17	user28	user92
-	该基站连接的user个数为：13
+该基站连接的user个数为：13
 
 bs109:	user56	user15	user87	user68	user45	user33	user10	user35	user0	user27	user64
-	该基站连接的user个数为：11
+该基站连接的user个数为：11
 
 bs108:	user37	user46	user43	user69	user78	user59	user93	user18	user63	user95	user80	user8	user49	user72	user16	user58	user11	user84	user83	user75	user62	user61	user73	user82
-	该基站连接的user个数为：24
+该基站连接的user个数为：24
 
 bs101:	user29	user91	user52	user12	user42	user57	user76	user71	user1	user39	user23	user6	user54	user70	user13	user14	user17	user28	user55
-	该基站连接的user个数为：19
+该基站连接的user个数为：19
 
 bs105:	user37	user69	user78	user59	user93	user18	user63	user95	user80	user8	user84	user83	user82	user73	user16
-	该基站连接的user个数为：15
+该基站连接的user个数为：15
 
 覆盖user数目最多的基站：bs107
 
-
-user1给user通信所经过的基站序列可能为：user1->bs100/bs101->bs109->user10
+user1给user10通信所经过的基站序列可能为：user1->bs100/bs101->bs109->user10
+基站7：bs106
+	user0  	速率 = 169.3276146855465Kb/s
+	user14  	速率 = 158.83372544975822Kb/s
+	user17  	速率 = 171.11975940846483Kb/s
+	user23  	速率 = 188.94790097975223Kb/s
+	user28  	速率 = 150.51489303216232Kb/s
+	user33  	速率 = 252.88073310778077Kb/s
+	user53  	速率 = 398.94510719189725Kb/s
+	user64  	速率 = 166.5272918832084Kb/s
+	user86  	速率 = 309.68436939337016Kb/s
+	user92  	速率 = 167.92045064629366Kb/s
 
 Message stats for scenario komorebi
 sim_time: 200.0000
-created: 6
-started: 630
-relayed: 630
-aborted: 0
-dropped: 0
-removed: 0
-delivered: 6
-delivery_prob: 1.0000
-response_prob: 0.0000
-overhead_ratio: 104.0000
-latency_avg: 13.3333
-latency_med: 14.0000
-hopcount_avg: 3.5000
-hopcount_med: 4
-buffertime_avg: NaN
-buffertime_med: NaN
-rtt_avg: NaN
-rtt_med: NaN
-
 bs102:	user85	user56	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user17	user23	user33	user53	user64	user86	user92	user68
-	该基站连接的user个数为：20
+该基站连接的user个数为：20
 
 bs103:	user40	user67	user15	user98	user32	user2	user87	user31	user4	user7	user20	user22	user27	user30	user44	user45	user48	user51	user64	user65	user97	user0	user26	user10	user62	user35
-	该基站连接的user个数为：26
+该基站连接的user个数为：26
 
 bs104:	user67	user2	user31	user7	user20	user22	user27	user30	user35	user45	user48	user51	user65	user97	user26
-	该基站连接的user个数为：15
+该基站连接的user个数为：15
 
 bs106:	user85	user56	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user17	user23	user33	user53	user64	user86	user92	user68
-	该基站连接的user个数为：20
+该基站连接的user个数为：20
 
 bs107:	user40	user5	user46	user66	user67	user98	user2	user31	user99	user19	user38	user44	user45	user51	user48	user4	user7	user11	user20	user22	user26	user30	user47	user62	user65	user75	user77	user97	user96	user94	user50	user88	user81
-	该基站连接的user个数为：33
+该基站连接的user个数为：33
 
 bs100:	user29	user91	user52	user12	user42	user71	user1	user6	user54	user14	user17	user28	user92	user39
-	该基站连接的user个数为：14
+该基站连接的user个数为：14
 
 bs109:	user56	user15	user87	user68	user45	user33	user10	user35	user0	user27	user64
-	该基站连接的user个数为：11
+该基站连接的user个数为：11
 
 bs108:	user37	user46	user43	user69	user78	user59	user93	user18	user63	user95	user80	user8	user49	user72	user16	user58	user11	user84	user83	user75	user61	user73	user82	user66	user9
-	该基站连接的user个数为：25
+该基站连接的user个数为：25
 
 bs101:	user29	user91	user52	user12	user42	user57	user76	user71	user1	user39	user6	user54	user70	user13	user14	user17	user28	user36
-	该基站连接的user个数为：18
+该基站连接的user个数为：18
 
 bs105:	user37	user69	user78	user59	user93	user18	user63	user80	user8	user84	user83	user82	user73	user16
-	该基站连接的user个数为：14
+该基站连接的user个数为：14
 
 覆盖user数目最多的基站：bs107
 
-
-user1给user通信所经过的基站序列可能为：user1->bs100/bs101->bs103/bs109->user10
+user1给user10通信所经过的基站序列可能为：user1->bs100/bs101->bs103/bs109->user10
+基站7：bs106
+	user0  	速率 = 168.4725442195539Kb/s
+	user14  	速率 = 177.02901549119824Kb/s
+	user17  	速率 = 173.20305450842366Kb/s
+	user23  	速率 = 197.03336404534915Kb/s
+	user33  	速率 = 235.65765203809667Kb/s
+	user53  	速率 = 311.7030157619273Kb/s
+	user64  	速率 = 168.48548498461082Kb/s
+	user86  	速率 = 280.1030010224457Kb/s
+	user92  	速率 = 163.99500688157627Kb/s
+	user68  	速率 = 152.50292103838171Kb/s
 
 Message stats for scenario komorebi
 sim_time: 300.0000
-created: 10
-started: 751
-relayed: 748
-aborted: 0
-dropped: 112
-removed: 0
-delivered: 6
-delivery_prob: 0.6000
-response_prob: 0.0000
-overhead_ratio: 123.6667
-latency_avg: 13.3333
-latency_med: 14.0000
-hopcount_avg: 3.5000
-hopcount_med: 4
-buffertime_avg: 49.6339
-buffertime_med: 6.0000
-rtt_avg: NaN
-rtt_med: NaN
-
 bs102:	user85	user56	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user17	user23	user33	user53	user64	user86	user92	user68
-	该基站连接的user个数为：20
+该基站连接的user个数为：20
 
 bs103:	user67	user15	user98	user32	user2	user87	user31	user4	user7	user20	user22	user27	user30	user44	user45	user48	user51	user64	user65	user97	user0	user26	user10	user62	user35	user40
-	该基站连接的user个数为：26
+该基站连接的user个数为：26
 
 bs104:	user67	user2	user31	user7	user20	user22	user30	user35	user45	user48	user51	user65	user97	user26
-	该基站连接的user个数为：14
+该基站连接的user个数为：14
 
 bs106:	user85	user56	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user17	user23	user33	user53	user64	user86	user92	user68
-	该基站连接的user个数为：20
+该基站连接的user个数为：20
 
 bs107:	user40	user5	user46	user66	user67	user98	user2	user31	user99	user19	user38	user44	user45	user51	user48	user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user77	user97	user96	user94	user50	user88	user81
-	该基站连接的user个数为：32
+该基站连接的user个数为：32
 
 bs100:	user29	user91	user52	user42	user71	user1	user6	user54	user17	user28	user92	user39
-	该基站连接的user个数为：12
+该基站连接的user个数为：12
 
 bs109:	user56	user15	user87	user68	user45	user33	user10	user35	user0	user27	user64
-	该基站连接的user个数为：11
+该基站连接的user个数为：11
 
 bs108:	user37	user46	user43	user69	user78	user59	user93	user18	user63	user95	user80	user8	user49	user72	user16	user58	user11	user84	user83	user75	user61	user73	user82	user66	user9	user77	user99	user89	user19
-	该基站连接的user个数为：29
+该基站连接的user个数为：29
 
 bs101:	user29	user91	user52	user12	user42	user57	user76	user71	user1	user39	user6	user54	user70	user14	user17	user28	user36
-	该基站连接的user个数为：17
+该基站连接的user个数为：17
 
 bs105:	user37	user69	user78	user59	user93	user18	user63	user80	user8	user84	user82	user73	user16
-	该基站连接的user个数为：13
+该基站连接的user个数为：13
 
 覆盖user数目最多的基站：bs107
 
-
-user1给user通信所经过的基站序列可能为：user1->bs100/bs101->bs103/bs109->user10
+user1给user10通信所经过的基站序列可能为：user1->bs100/bs101->bs103/bs109->user10
+基站7：bs106
+	user0  	速率 = 167.27949225967006Kb/s
+	user14  	速率 = 193.23897988884488Kb/s
+	user17  	速率 = 170.07081605882908Kb/s
+	user23  	速率 = 197.71288181029428Kb/s
+	user33  	速率 = 241.97551538146126Kb/s
+	user53  	速率 = 252.436077339551Kb/s
+	user64  	速率 = 168.62297625532403Kb/s
+	user86  	速率 = 240.66975704628618Kb/s
+	user92  	速率 = 163.02026386725916Kb/s
+	user68  	速率 = 155.58178610276192Kb/s
 
 Message stats for scenario komorebi
 sim_time: 400.0000
-created: 13
-started: 1164
-relayed: 1157
-aborted: 0
-dropped: 522
-removed: 0
-delivered: 6
-delivery_prob: 0.4615
-response_prob: 0.0000
-overhead_ratio: 191.8333
-latency_avg: 13.3333
-latency_med: 14.0000
-hopcount_avg: 3.5000
-hopcount_med: 4
-buffertime_avg: 56.2605
-buffertime_med: 6.0000
-rtt_avg: NaN
-rtt_med: NaN
-
 bs102:	user85	user56	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user17	user23	user33	user53	user64	user86	user92	user68	user39	user52
-	该基站连接的user个数为：22
+该基站连接的user个数为：22
 
 bs103:	user67	user15	user98	user32	user2	user87	user31	user4	user7	user20	user22	user27	user30	user45	user48	user51	user64	user65	user97	user0	user26	user10	user35	user40	user68	user5	user47	user56	user23	user33
-	该基站连接的user个数为：30
+该基站连接的user个数为：30
 
 bs104:	user67	user2	user31	user7	user20	user22	user30	user35	user45	user48	user51	user65	user97	user26	user4	user5	user47
-	该基站连接的user个数为：17
+该基站连接的user个数为：17
 
 bs106:	user85	user56	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user17	user23	user33	user53	user64	user86	user92	user68	user39	user52
-	该基站连接的user个数为：22
+该基站连接的user个数为：22
 
 bs107:	user40	user5	user46	user66	user67	user98	user2	user31	user99	user19	user38	user44	user45	user51	user48	user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user97	user96	user94	user50	user88	user81	user49
-	该基站连接的user个数为：32
+该基站连接的user个数为：32
 
 bs100:	user29	user91	user52	user42	user71	user54	user17	user92	user39
-	该基站连接的user个数为：9
+该基站连接的user个数为：9
 
 bs109:	user56	user15	user87	user68	user45	user33	user10	user35	user0	user27	user64
-	该基站连接的user个数为：11
+该基站连接的user个数为：11
 
 bs108:	user37	user46	user43	user69	user78	user59	user93	user18	user63	user95	user80	user8	user49	user72	user16	user58	user11	user84	user83	user75	user61	user73	user82	user66	user9	user77	user99	user89	user19	user34	user96	user44	user25
-	该基站连接的user个数为：33
+该基站连接的user个数为：33
 
 bs101:	user29	user91	user52	user12	user42	user57	user76	user71	user1	user39	user6	user54	user70	user17	user28	user36
-	该基站连接的user个数为：16
+该基站连接的user个数为：16
 
 bs105:	user37	user69	user78	user18	user63	user80	user8	user84	user82	user73	user16	user61
-	该基站连接的user个数为：12
+该基站连接的user个数为：12
 
 覆盖user数目最多的基站：bs108
 
-
-user1给user通信所经过的基站序列可能为：user1->bs101->bs103/bs109->user10
+user1给user10通信所经过的基站序列可能为：user1->bs101->bs103/bs109->user10
+基站7：bs106
+	user0  	速率 = 166.09189172058623Kb/s
+	user14  	速率 = 197.40373008873527Kb/s
+	user17  	速率 = 159.9173618168189Kb/s
+	user23  	速率 = 171.51169837008263Kb/s
+	user33  	速率 = 216.34418947666785Kb/s
+	user53  	速率 = 212.101044805395Kb/s
+	user64  	速率 = 177.07478267302062Kb/s
+	user86  	速率 = 210.98177764072412Kb/s
+	user92  	速率 = 166.70252662838405Kb/s
+	user68  	速率 = 157.00727206338885Kb/s
 
 Message stats for scenario komorebi
 sim_time: 500.0000
-created: 17
-started: 2010
-relayed: 2001
-aborted: 0
-dropped: 1369
-removed: 0
-delivered: 7
-delivery_prob: 0.4118
-response_prob: 0.0000
-overhead_ratio: 284.8571
-latency_avg: 17.5714
-latency_med: 14.0000
-hopcount_avg: 3.2857
-hopcount_med: 3
-buffertime_avg: 60.5880
-buffertime_med: 6.0000
-rtt_avg: NaN
-rtt_med: NaN
-
 bs102:	user85	user56	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user17	user23	user33	user53	user64	user86	user92	user68	user39	user52	user10	user27
-	该基站连接的user个数为：24
+该基站连接的user个数为：24
 
 bs103:	user67	user98	user2	user87	user31	user4	user7	user20	user22	user27	user30	user45	user48	user51	user64	user65	user97	user0	user26	user10	user35	user68	user5	user47	user56	user23	user62
-	该基站连接的user个数为：27
+该基站连接的user个数为：27
 
 bs104:	user67	user2	user31	user7	user20	user22	user30	user35	user45	user48	user51	user65	user97	user26	user4	user5	user47
-	该基站连接的user个数为：17
+该基站连接的user个数为：17
 
 bs106:	user85	user56	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user17	user23	user33	user53	user64	user86	user92	user68	user39	user52	user10
-	该基站连接的user个数为：23
+该基站连接的user个数为：23
 
 bs107:	user5	user46	user66	user67	user98	user2	user31	user99	user19	user38	user44	user45	user51	user48	user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user97	user96	user94	user50	user88	user81	user49
-	该基站连接的user个数为：31
+该基站连接的user个数为：31
 
 bs100:	user29	user91	user52	user42	user71	user54	user17	user92	user39
-	该基站连接的user个数为：9
+该基站连接的user个数为：9
 
 bs109:	user56	user15	user87	user68	user45	user33	user10	user35	user0	user27	user64	user14
-	该基站连接的user个数为：12
+该基站连接的user个数为：12
 
 bs108:	user37	user43	user69	user78	user59	user93	user18	user63	user80	user8	user49	user72	user16	user58	user11	user84	user83	user75	user61	user73	user82	user66	user9	user77	user99	user89	user19	user34	user96	user44
-	该基站连接的user个数为：30
+该基站连接的user个数为：30
 
 bs101:	user29	user91	user52	user12	user42	user57	user76	user71	user1	user39	user6	user54	user70	user17	user28	user36
-	该基站连接的user个数为：16
+该基站连接的user个数为：16
 
 bs105:	user37	user69	user78	user18	user63	user80	user8	user84	user73	user16	user61
-	该基站连接的user个数为：11
+该基站连接的user个数为：11
 
 覆盖user数目最多的基站：bs107
 
-
-user1给user通信所经过的基站序列可能为：user1->bs101->bs102/bs103/bs106/bs109->user10
+user1给user10通信所经过的基站序列可能为：user1->bs101->bs102/bs103/bs106/bs109->user10
+基站7：bs106
+	user0  	速率 = 166.83780375290723Kb/s
+	user14  	速率 = 197.49483254672722Kb/s
+	user17  	速率 = 150.43342723940196Kb/s
+	user23  	速率 = 149.2637718251276Kb/s
+	user33  	速率 = 224.07003906748912Kb/s
+	user53  	速率 = 197.37150511841864Kb/s
+	user64  	速率 = 193.69553277342138Kb/s
+	user86  	速率 = 193.55273051856253Kb/s
+	user92  	速率 = 167.7980596472022Kb/s
+	user68  	速率 = 159.44933790031052Kb/s
 
 Message stats for scenario komorebi
 sim_time: 600.0000
-created: 20
-started: 2914
-relayed: 2905
-aborted: 0
-dropped: 2275
-removed: 0
-delivered: 8
-delivery_prob: 0.4000
-response_prob: 0.0000
-overhead_ratio: 362.1250
-latency_avg: 15.5000
-latency_med: 14.0000
-hopcount_avg: 3.0000
-hopcount_med: 3
-buffertime_avg: 49.5275
-buffertime_med: 6.0000
-rtt_avg: NaN
-rtt_med: NaN
-
 bs102:	user85	user56	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user33	user53	user64	user86	user92	user68	user39	user52	user10	user27
-	该基站连接的user个数为：22
+该基站连接的user个数为：22
 
 bs103:	user67	user98	user2	user87	user31	user4	user7	user20	user22	user27	user30	user45	user48	user51	user97	user0	user26	user10	user35	user68	user5	user47	user56	user23	user62	user24	user14	user3	user46	user50	user33	user86
-	该基站连接的user个数为：32
+该基站连接的user个数为：32
 
 bs104:	user67	user2	user31	user7	user20	user22	user30	user35	user45	user48	user51	user4	user5	user47	user50
-	该基站连接的user个数为：15
+该基站连接的user个数为：15
 
 bs106:	user85	user56	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user33	user53	user64	user86	user92	user68	user39	user52	user10	user27
-	该基站连接的user个数为：22
+该基站连接的user个数为：22
 
 bs107:	user5	user46	user66	user67	user98	user2	user31	user99	user19	user38	user45	user51	user48	user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user97	user96	user94	user50	user88	user81	user49	user35
-	该基站连接的user个数为：31
+该基站连接的user个数为：31
 
 bs100:	user29	user91	user52	user42	user71	user54	user17	user92	user36
-	该基站连接的user个数为：9
+该基站连接的user个数为：9
 
 bs109:	user56	user87	user68	user45	user33	user10	user35	user0	user27	user14	user31
-	该基站连接的user个数为：11
+该基站连接的user个数为：11
 
 bs108:	user37	user43	user69	user78	user59	user93	user18	user63	user80	user8	user49	user72	user16	user58	user11	user84	user75	user61	user73	user82	user66	user9	user77	user99	user89	user19	user34	user96	user44
-	该基站连接的user个数为：29
+该基站连接的user个数为：29
 
 bs101:	user29	user91	user52	user42	user57	user76	user71	user1	user39	user6	user54	user70	user17	user36	user92	user12	user53
-	该基站连接的user个数为：17
+该基站连接的user个数为：17
 
 bs105:	user37	user69	user78	user18	user63	user80	user8	user84	user73	user16	user61	user34
-	该基站连接的user个数为：12
+该基站连接的user个数为：12
 
 覆盖user数目最多的基站：bs103
 
-
-user1给user通信所经过的基站序列可能为：user1->bs101->bs102/bs103/bs106/bs109->user10
+user1给user10通信所经过的基站序列可能为：user1->bs101->bs102/bs103/bs106/bs109->user10
+基站7：bs106
+	user0  	速率 = 169.61274079303178Kb/s
+	user14  	速率 = 180.90302190823834Kb/s
+	user33  	速率 = 204.09424953181744Kb/s
+	user53  	速率 = 195.87268514181113Kb/s
+	user64  	速率 = 199.07104812317488Kb/s
+	user86  	速率 = 174.11087365733394Kb/s
+	user92  	速率 = 165.22620116121095Kb/s
+	user68  	速率 = 166.6292157763489Kb/s
+	user27  	速率 = 147.9538196447643Kb/s
 
 Message stats for scenario komorebi
 sim_time: 700.0000
-created: 24
-started: 3767
-relayed: 3758
-aborted: 0
-dropped: 3131
-removed: 0
-delivered: 8
-delivery_prob: 0.3333
-response_prob: 0.0000
-overhead_ratio: 468.7500
-latency_avg: 15.5000
-latency_med: 14.0000
-hopcount_avg: 3.0000
-hopcount_med: 3
-buffertime_avg: 46.9463
-buffertime_med: 6.0000
-rtt_avg: NaN
-rtt_med: NaN
-
 bs102:	user85	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user33	user53	user64	user86	user92	user68	user39	user52	user10	user27
-	该基站连接的user个数为：21
+该基站连接的user个数为：21
 
 bs103:	user67	user98	user2	user87	user31	user4	user7	user20	user22	user27	user30	user45	user48	user51	user97	user0	user26	user10	user35	user68	user5	user47	user56	user23	user62	user24	user14	user3	user50	user33	user86	user94	user40	user38	user49	user88
-	该基站连接的user个数为：36
+该基站连接的user个数为：36
 
 bs104:	user67	user2	user31	user7	user20	user22	user30	user35	user45	user48	user51	user4	user5	user47	user50	user94	user38	user56
-	该基站连接的user个数为：18
+该基站连接的user个数为：18
 
 bs106:	user85	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user33	user53	user64	user86	user92	user68	user39	user52	user10	user27
-	该基站连接的user个数为：21
+该基站连接的user个数为：21
 
 bs107:	user5	user46	user66	user67	user98	user2	user31	user99	user19	user38	user45	user51	user48	user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user97	user96	user94	user50	user88	user81	user49	user35	user23	user56
-	该基站连接的user个数为：33
+该基站连接的user个数为：33
 
 bs100:	user29	user91	user52	user42	user71	user54	user17	user92	user36
-	该基站连接的user个数为：9
+该基站连接的user个数为：9
 
 bs109:	user56	user87	user68	user45	user33	user10	user35	user0	user27	user14	user31	user20
-	该基站连接的user个数为：12
+该基站连接的user个数为：12
 
 bs108:	user37	user43	user69	user78	user93	user18	user63	user80	user8	user72	user16	user58	user11	user84	user75	user61	user73	user82	user66	user9	user77	user99	user89	user19	user34	user96	user55	user81	user60
-	该基站连接的user个数为：29
+该基站连接的user个数为：29
 
 bs101:	user29	user91	user52	user42	user57	user71	user1	user54	user17	user36	user92	user12	user53
-	该基站连接的user个数为：13
+该基站连接的user个数为：13
 
 bs105:	user37	user69	user78	user18	user63	user80	user8	user73	user16	user61	user34
-	该基站连接的user个数为：11
+该基站连接的user个数为：11
 
 覆盖user数目最多的基站：bs103
 
-
-user1给user通信所经过的基站序列可能为：user1->bs101->bs102/bs103/bs106/bs109->user10
+user1给user10通信所经过的基站序列可能为：user1->bs101->bs102/bs103/bs106/bs109->user10
+基站7：bs106
+	user0  	速率 = 170.97466348253056Kb/s
+	user14  	速率 = 176.85795451989475Kb/s
+	user33  	速率 = 196.09042666921263Kb/s
+	user53  	速率 = 186.7190265757069Kb/s
+	user64  	速率 = 197.37121321495803Kb/s
+	user86  	速率 = 158.05173257372925Kb/s
+	user92  	速率 = 161.85614130631217Kb/s
+	user68  	速率 = 171.56277122927966Kb/s
+	user27  	速率 = 153.38281541100935Kb/s
 
 Message stats for scenario komorebi
 sim_time: 800.0000
-created: 27
-started: 4666
-relayed: 4657
-aborted: 0
-dropped: 4031
-removed: 0
-delivered: 8
-delivery_prob: 0.2963
-response_prob: 0.0000
-overhead_ratio: 581.1250
-latency_avg: 15.5000
-latency_med: 14.0000
-hopcount_avg: 3.0000
-hopcount_med: 3
-buffertime_avg: 45.3339
-buffertime_med: 6.0000
-rtt_avg: NaN
-rtt_med: NaN
-
 bs102:	user85	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user33	user53	user64	user92	user68	user39	user52	user10	user27	user24	user3
-	该基站连接的user个数为：22
+该基站连接的user个数为：22
 
 bs103:	user67	user98	user2	user31	user4	user7	user20	user22	user27	user30	user45	user48	user51	user97	user0	user10	user35	user68	user5	user47	user56	user23	user62	user24	user14	user3	user50	user86	user94	user38	user49	user88	user28
-	该基站连接的user个数为：33
+该基站连接的user个数为：33
 
 bs104:	user67	user2	user31	user7	user20	user22	user35	user45	user48	user51	user4	user5	user47	user50	user94	user38	user56	user88	user23
-	该基站连接的user个数为：19
+该基站连接的user个数为：19
 
 bs106:	user85	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user33	user53	user64	user86	user92	user68	user39	user52	user10	user27	user24	user3
-	该基站连接的user个数为：23
+该基站连接的user个数为：23
 
 bs107:	user5	user66	user67	user98	user2	user31	user99	user19	user38	user45	user51	user48	user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user97	user96	user94	user50	user88	user81	user49	user35	user23	user56	user72	user28
-	该基站连接的user个数为：34
+该基站连接的user个数为：34
 
 bs100:	user29	user91	user52	user42	user71	user54	user17	user92	user36	user53
-	该基站连接的user个数为：10
+该基站连接的user个数为：10
 
 bs109:	user56	user87	user68	user45	user10	user35	user0	user27	user14	user31	user20	user51
-	该基站连接的user个数为：12
+该基站连接的user个数为：12
 
 bs108:	user37	user43	user69	user78	user18	user63	user80	user8	user72	user16	user58	user11	user84	user75	user61	user73	user82	user66	user9	user77	user99	user89	user19	user34	user96	user55	user81	user60	user70	user26
-	该基站连接的user个数为：30
+该基站连接的user个数为：30
 
 bs101:	user29	user91	user52	user42	user71	user54	user17	user36	user92	user53	user15	user59	user41	user64
-	该基站连接的user个数为：14
+该基站连接的user个数为：14
 
 bs105:	user37	user69	user63	user8	user73	user16	user61	user34	user43
-	该基站连接的user个数为：9
+该基站连接的user个数为：9
 
 覆盖user数目最多的基站：bs107
 
-
-user1给user通信所经过的基站序列不存在
+user1给user10通信所经过的基站序列不存在
+基站7：bs106
+	user0  	速率 = 167.095466448365Kb/s
+	user14  	速率 = 171.32566920722618Kb/s
+	user33  	速率 = 198.40606394897384Kb/s
+	user53  	速率 = 178.94034371610542Kb/s
+	user64  	速率 = 196.22865773417772Kb/s
+	user86  	速率 = 145.46793947135257Kb/s
+	user92  	速率 = 157.37177346492166Kb/s
+	user68  	速率 = 168.31704162705645Kb/s
+	user27  	速率 = 157.48968250333635Kb/s
+	user24  	速率 = 155.0894332469073Kb/s
+	user3  	速率 = 155.35586778553687Kb/s
 
 Message stats for scenario komorebi
 sim_time: 900.0000
-created: 30
-started: 5560
-relayed: 5551
-aborted: 0
-dropped: 4926
-removed: 0
-delivered: 8
-delivery_prob: 0.2667
-response_prob: 0.0000
-overhead_ratio: 692.8750
-latency_avg: 15.5000
-latency_med: 14.0000
-hopcount_avg: 3.0000
-hopcount_med: 3
-buffertime_avg: 42.2846
-buffertime_med: 6.0000
-rtt_avg: NaN
-rtt_med: NaN
-
 bs102:	user85	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user33	user53	user64	user92	user68	user39	user52	user10	user27	user24	user3	user71
-	该基站连接的user个数为：23
+该基站连接的user个数为：23
 
 bs103:	user67	user98	user2	user31	user4	user7	user20	user22	user27	user30	user45	user48	user51	user97	user0	user10	user35	user68	user5	user47	user56	user23	user62	user24	user14	user3	user50	user86	user94	user38	user49	user88	user28
-	该基站连接的user个数为：33
+该基站连接的user个数为：33
 
 bs104:	user67	user2	user31	user7	user20	user22	user35	user45	user48	user51	user4	user5	user47	user50	user94	user38	user56	user88	user23	user49
-	该基站连接的user个数为：20
+该基站连接的user个数为：20
 
 bs106:	user85	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user33	user53	user64	user92	user68	user39	user52	user10	user27	user24	user3	user71
-	该基站连接的user个数为：23
+该基站连接的user个数为：23
 
 bs107:	user5	user66	user67	user98	user2	user31	user99	user19	user38	user45	user51	user48	user4	user7	user20	user22	user26	user30	user47	user62	user65	user75	user96	user94	user50	user88	user81	user49	user35	user23	user56	user72	user28	user77
-	该基站连接的user个数为：34
+该基站连接的user个数为：34
 
 bs100:	user29	user52	user42	user71	user54	user17	user92	user36	user53	user15	user41
-	该基站连接的user个数为：11
+该基站连接的user个数为：11
 
 bs109:	user56	user68	user45	user10	user35	user0	user27	user14	user31	user20	user51	user23	user48
-	该基站连接的user个数为：13
+该基站连接的user个数为：13
 
 bs108:	user37	user43	user69	user78	user18	user63	user80	user8	user72	user16	user58	user11	user84	user75	user61	user73	user82	user66	user9	user77	user99	user89	user19	user34	user96	user55	user81	user60	user70	user26	user6	user76	user25
-	该基站连接的user个数为：33
+该基站连接的user个数为：33
 
 bs101:	user29	user91	user52	user42	user71	user54	user17	user36	user92	user53	user15	user59	user41	user64	user40	user44
-	该基站连接的user个数为：16
+该基站连接的user个数为：16
 
 bs105:	user37	user69	user63	user8	user73	user16	user34	user43	user89
-	该基站连接的user个数为：9
+该基站连接的user个数为：9
 
 覆盖user数目最多的基站：bs107
 
-
-user1给user通信所经过的基站序列不存在
+user1给user10通信所经过的基站序列不存在
+基站7：bs106
+	user0  	速率 = 168.55834851089136Kb/s
+	user14  	速率 = 166.03559260773233Kb/s
+	user33  	速率 = 179.80757356798318Kb/s
+	user53  	速率 = 168.49872672315252Kb/s
+	user64  	速率 = 188.48522722368378Kb/s
+	user92  	速率 = 153.00000918548014Kb/s
+	user68  	速率 = 168.14444882989488Kb/s
+	user27  	速率 = 160.87439642389776Kb/s
+	user24  	速率 = 172.1611771985786Kb/s
+	user3  	速率 = 170.85349359412302Kb/s
+	user71  	速率 = 151.23888222000798Kb/s
 
 Message stats for scenario komorebi
 sim_time: 1000.0000
-created: 33
-started: 6474
-relayed: 6464
-aborted: 0
-dropped: 5837
-removed: 0
-delivered: 8
-delivery_prob: 0.2424
-response_prob: 0.0000
-overhead_ratio: 807.0000
-latency_avg: 15.5000
-latency_med: 14.0000
-hopcount_avg: 3.0000
-hopcount_med: 3
-buffertime_avg: 43.2852
-buffertime_med: 6.0000
-rtt_avg: NaN
-rtt_med: NaN
-
 bs102:	user85	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user33	user53	user64	user92	user68	user39	user52	user10	user27	user24	user3	user71	user40
-	该基站连接的user个数为：24
+该基站连接的user个数为：24
 
 bs103:	user67	user98	user2	user31	user4	user7	user20	user22	user27	user30	user45	user48	user51	user0	user10	user35	user68	user5	user47	user56	user23	user62	user24	user14	user3	user50	user86	user94	user38	user49	user88	user28	user95	user33	user72
-	该基站连接的user个数为：35
+该基站连接的user个数为：35
 
 bs104:	user67	user2	user31	user7	user20	user22	user35	user45	user48	user51	user4	user5	user47	user50	user94	user38	user56	user88	user23	user49
-	该基站连接的user个数为：20
+该基站连接的user个数为：20
 
 bs106:	user85	user74	user79	user21	user41	user90	user15	user32	user87	user0	user14	user33	user53	user64	user92	user68	user39	user52	user10	user27	user24	user3	user71	user40
-	该基站连接的user个数为：24
+该基站连接的user个数为：24
 
 bs107:	user5	user66	user67	user98	user2	user31	user99	user19	user38	user45	user51	user48	user4	user7	user20	user22	user30	user47	user62	user65	user75	user96	user94	user50	user88	user81	user49	user35	user23	user56	user72	user28	user77
-	该基站连接的user个数为：33
+该基站连接的user个数为：33
 
 bs100:	user29	user52	user42	user71	user54	user17	user92	user36	user53	user15	user41	user64
-	该基站连接的user个数为：12
+该基站连接的user个数为：12
 
 bs109:	user56	user68	user45	user10	user35	user0	user27	user14	user31	user20	user51	user23	user48	user24	user3
-	该基站连接的user个数为：15
+该基站连接的user个数为：15
 
 bs108:	user37	user43	user69	user78	user18	user63	user80	user8	user16	user58	user11	user84	user75	user61	user73	user82	user66	user9	user77	user99	user89	user19	user34	user96	user55	user81	user60	user70	user26	user6	user76	user13	user1
-	该基站连接的user个数为：33
+该基站连接的user个数为：33
 
 bs101:	user29	user91	user52	user42	user71	user54	user17	user36	user92	user53	user15	user59	user41	user64	user40	user44	user32	user93
-	该基站连接的user个数为：18
+该基站连接的user个数为：18
 
 bs105:	user37	user69	user63	user8	user73	user16	user34	user43	user89	user82
-	该基站连接的user个数为：10
+该基站连接的user个数为：10
 
 覆盖user数目最多的基站：bs103
 
-
-user1给user通信所经过的基站序列可能为：user1->bs108->bs102/bs103/bs106/bs109->user10
+user1给user10通信所经过的基站序列可能为：user1->bs108->bs102/bs103/bs106/bs109->user10
+基站7：bs106
+	user0  	速率 = 169.27095657885835Kb/s
+	user14  	速率 = 155.71596226071614Kb/s
+	user33  	速率 = 163.78464335531265Kb/s
+	user53  	速率 = 157.28072694116563Kb/s
+	user64  	速率 = 176.18733341405465Kb/s
+	user92  	速率 = 157.1477791580838Kb/s
+	user68  	速率 = 153.2662505260469Kb/s
+	user27  	速率 = 163.7581018440423Kb/s
+	user24  	速率 = 169.6548323341672Kb/s
+	user3  	速率 = 169.9167056522102Kb/s
+	user71  	速率 = 161.77580925101884Kb/s
+	user40  	速率 = 148.07353628109743Kb/s
 
