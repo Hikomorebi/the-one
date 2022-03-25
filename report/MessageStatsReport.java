@@ -6,6 +6,7 @@ package report;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.io.File;
@@ -146,6 +147,15 @@ public class MessageStatsReport extends Report implements MessageListener {
 		File file = new File(saveFile);
 		FileOutputStream fos = null;
 		OutputStreamWriter osw = null;
+		System.out.println("user1:");
+		for (Integer i : world.userOneBS) {
+			System.out.println("bs" + i);
+		}
+		System.out.println("user10");
+		for (Integer i : world.userTenBS) {
+			System.out.println("bs" + i);
+		}
+		System.out.println();
 
 		try {
 			if (!file.exists()) {
@@ -193,12 +203,13 @@ public class MessageStatsReport extends Report implements MessageListener {
 						for (Connection connectionUser : connectionBS.getOtherNode(host).getConnections()) {
 							if (connectionUser.getOtherNode(connectionBS.getOtherNode(host)).getGroupId()
 									.equals("user")) {
-								myText += ("\t"+ connectionUser.getOtherNode(connectionBS.getOtherNode(host)).getName());
+								myText += ("\t"
+										+ connectionUser.getOtherNode(connectionBS.getOtherNode(host)).getName());
 								count++;
 							}
 						}
 						map.put(connectionBS.getOtherNode(host).getName(), count);
-						myText += "\n\t该基站连接的user个数为：" + count + "\n\n";
+						myText += "\n该基站连接的user个数为：" + count + "\n\n";
 					}
 				}
 			}
@@ -216,7 +227,7 @@ public class MessageStatsReport extends Report implements MessageListener {
 					myText += s;
 				}
 			}
-			myText += "\n\n";
+			myText += "\n";
 //			for(DTNHost host:world.getHosts()) {
 //				if(host.getGroupId().equals("bs")) {
 //					myText+=(host.getName()+":");
@@ -228,11 +239,80 @@ public class MessageStatsReport extends Report implements MessageListener {
 //					myText+="\n";
 //				}
 //			}
+			String routeText = "\nuser1给user10通信所经过的基站序列";
 //			
+			int countBS=0;
+			if (World.userOneBS.size() == 0 || World.userOneBS.size() == 0) {
+				routeText += "不存在";
+			} else {
+				HashSet<Integer> oneBS = new HashSet<Integer>();
+				for (Integer i1 : World.userOneBS) {
+					for (Integer i2 : World.userTenBS) {
+						if (i1 == i2) {
+							oneBS.add(i1);
+						}
+					}
+				}
+				if (oneBS.size() == 0) {
+					countBS=World.userOneBS.size();
+					routeText += "可能为：user1->";
+					countBS=World.userOneBS.size();
+					for (Integer i : World.userOneBS) {
+						routeText += "bs"+i ;
+						if(countBS-->1) {
+							routeText+="/";
+						}
+					}
+					routeText += "->";
+					countBS=World.userTenBS.size();
+					for (Integer i : World.userTenBS) {
+						routeText += "bs" + i;
+						if(countBS-->1) {
+							routeText+="/";
+						}
+					}
+					routeText += "->user10";
 
-			osw.write(statsText); // 换行
-			osw.write("\r\n\n");
+				} else {
+					routeText+="可能为:user1->";
+					countBS=oneBS.size();
+					for(Integer i:oneBS) {
+						routeText+="bs"+i;
+						if(countBS-->1) {
+							routeText+="/";
+						}
+					}
+					routeText+="->user10\n也可能为:user1->";
+					countBS=World.userOneBS.size();
+					for (Integer i : World.userOneBS) {
+						if(!oneBS.contains(i)) {
+							routeText += "bs"+i ;
+						}
+						
+						if(countBS-->1) {
+							routeText+="/";
+						}
+					}
+					routeText += "->";
+					countBS=World.userTenBS.size();
+					for (Integer i : World.userTenBS) {
+						if(!oneBS.contains(i)) {
+							routeText += "bs"+i ;
+						}
+						
+						if(countBS-->1) {
+							routeText+="/";
+						}
+					}
+					routeText += "->user10";
+					
+				}
+			}
+			routeText+="\n\n";
+			osw.write(statsText);
+			osw.write("\r\n");
 			osw.write(myText);
+			osw.write(routeText);
 
 		} catch (Exception e) {
 			e.printStackTrace();

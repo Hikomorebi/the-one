@@ -10,6 +10,7 @@ import input.ScheduledUpdatesQueue;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Random;
 
@@ -56,6 +57,8 @@ public class World {
 	/** Queue of scheduled update requests */
 	private ScheduledUpdatesQueue scheduledUpdates;
 	private boolean simulateConOnce;
+	public static HashSet<Integer> userOneBS=new HashSet<Integer>();
+	public static HashSet<Integer> userTenBS=new HashSet<Integer>();
 
 	/**
 	 * Constructor.

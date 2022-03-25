@@ -51,6 +51,9 @@ bs105:	user37	user69	user78	user59	user93	user18	user63	user95	user80	user8	user
 
 覆盖user数目最多的基站：bs107
 
+
+user1给user通信所经过的基站序列可能为：user1->bs100/bs101->bs109->user10
+
 Message stats for scenario komorebi
 sim_time: 200.0000
 created: 6
@@ -103,6 +106,9 @@ bs105:	user37	user69	user78	user59	user93	user18	user63	user80	user8	user84	user
 	该基站连接的user个数为：14
 
 覆盖user数目最多的基站：bs107
+
+
+user1给user通信所经过的基站序列可能为：user1->bs100/bs101->bs103/bs109->user10
 
 Message stats for scenario komorebi
 sim_time: 300.0000
@@ -157,6 +163,9 @@ bs105:	user37	user69	user78	user59	user93	user18	user63	user80	user8	user84	user
 
 覆盖user数目最多的基站：bs107
 
+
+user1给user通信所经过的基站序列可能为：user1->bs100/bs101->bs103/bs109->user10
+
 Message stats for scenario komorebi
 sim_time: 400.0000
 created: 13
@@ -209,6 +218,9 @@ bs105:	user37	user69	user78	user18	user63	user80	user8	user84	user82	user73	user
 	该基站连接的user个数为：12
 
 覆盖user数目最多的基站：bs108
+
+
+user1给user通信所经过的基站序列可能为：user1->bs101->bs103/bs109->user10
 
 Message stats for scenario komorebi
 sim_time: 500.0000
@@ -263,6 +275,9 @@ bs105:	user37	user69	user78	user18	user63	user80	user8	user84	user73	user16	user
 
 覆盖user数目最多的基站：bs107
 
+
+user1给user通信所经过的基站序列可能为：user1->bs101->bs102/bs103/bs106/bs109->user10
+
 Message stats for scenario komorebi
 sim_time: 600.0000
 created: 20
@@ -315,6 +330,9 @@ bs105:	user37	user69	user78	user18	user63	user80	user8	user84	user73	user16	user
 	该基站连接的user个数为：12
 
 覆盖user数目最多的基站：bs103
+
+
+user1给user通信所经过的基站序列可能为：user1->bs101->bs102/bs103/bs106/bs109->user10
 
 Message stats for scenario komorebi
 sim_time: 700.0000
@@ -369,6 +387,9 @@ bs105:	user37	user69	user78	user18	user63	user80	user8	user73	user16	user61	user
 
 覆盖user数目最多的基站：bs103
 
+
+user1给user通信所经过的基站序列可能为：user1->bs101->bs102/bs103/bs106/bs109->user10
+
 Message stats for scenario komorebi
 sim_time: 800.0000
 created: 27
@@ -421,6 +442,9 @@ bs105:	user37	user69	user63	user8	user73	user16	user61	user34	user43
 	该基站连接的user个数为：9
 
 覆盖user数目最多的基站：bs107
+
+
+user1给user通信所经过的基站序列不存在
 
 Message stats for scenario komorebi
 sim_time: 900.0000
@@ -475,6 +499,9 @@ bs105:	user37	user69	user63	user8	user73	user16	user34	user43	user89
 
 覆盖user数目最多的基站：bs107
 
+
+user1给user通信所经过的基站序列不存在
+
 Message stats for scenario komorebi
 sim_time: 1000.0000
 created: 33
@@ -527,4 +554,7 @@ bs105:	user37	user69	user63	user8	user73	user16	user34	user43	user89	user82
 	该基站连接的user个数为：10
 
 覆盖user数目最多的基站：bs103
+
+
+user1给user通信所经过的基站序列可能为：user1->bs108->bs102/bs103/bs106/bs109->user10
 
